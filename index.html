@@ -10,14 +10,14 @@
   <body style='margin: 0px; overflow; hidden;'>
     <a-scene vr-mode-ui="enabled: false;" embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3; trackingMethod: best; debugUIEnabled: False;">
       <a-assets>
-        <a-asset-item id="tree" src="models/tree.gltf"></a-asset-item>
+        <a-asset-item id="barb" src="models/barb-wintalk.gltf"></a-asset-item>
       </a-assets>
 
       <a-marker type='barcode' value='1'>
         <a-entity position="0 0 0"
                   rotation="0 0 0"
                   scale="4 4 4"
-                  gltf-model="#tree">
+                  gltf-model="#barb">
       </a-marker>
 
       <a-entity camera></a-entity>
